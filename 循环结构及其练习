@@ -1,0 +1,157 @@
+#define _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//int main()
+//{
+//	int year, tap;
+//	scanf("%d", year);
+//	if (year % 4 == 0)
+//		if (year % 100 == 0)
+//			if (year % 400 == 0)
+//				tap = 1;
+//			else
+//				tap = 0;
+//		else
+//			tap = 1;
+//	else
+//		tap = 0;
+//	printf("%d\n", tap);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int sum = 0, i = 1;
+//	while (i <= 100)
+//	{
+//		sum = sum + i;
+//		i++;
+//	}
+//	printf("sum =%d\n", sum);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int sum = 0, i = 1;
+//	while (i <= 100)
+//	{
+//		sum = sum + i;
+//		i++;
+//	}
+//	printf("sum = %d\n", sum);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int t = 1, sum = 0, i;
+//	for (i = 1; i <= 10; i++)
+//	{
+//		t = t * i;
+//		sum = sum + t;
+//	}
+//	printf("sum = %d\n", sum);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int t = 1, sum = 0, i;
+//	for (i = 1; i <= 10; i++)
+//	{
+//		t = t * i;
+//		sum = sum + t;
+//	}
+//	printf("sum = %d\n", sum);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int t, sum, i, j;
+//	sum = 0;
+//	for (i = 1; i <= 10; i++)
+//	{
+//		t = 1;
+//		for (j = 1; j <= i; j++)
+//			t = t * j;
+//		sum = sum + t;
+//	}
+//	printf("sum =%d\n", sum);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int t = 1, sum = 0, i;
+//	for (i = 1; i <= 10; i++)
+//	{
+//		t = t * i;
+//		sum = sum + t;
+//	}
+//	printf("sum = %d\n", sum);
+//	return 0;
+//}
+// 
+// 数据练习
+//#include<stdio.h>     数据的练习
+//#define PI 3-14159265
+//int main()
+//{
+//	double r, p, a, v;
+//	printf("Input radius");
+//	scanf("%lf", &r);
+//	p = 2 * PI * r;
+//	a = PI * r * r;
+//	v = 4 / 3 * PI * r * r * r;
+//	printf("perimeter=%f\narea=%f\nvolume=%f\n", p, a, v);
+//
+//	return 0;
+//
+//#include<stdio.h>
+//int main()
+//{
+//	char c1, c2;
+//	c1 = 'a	';
+//	c2 = 'b';
+//	c1 = c1 - 32;
+//	c2 = c2 - 32;
+//	printf("%c %c\n", c1, c2);
+//	prrintf("%d %d\n", c1, c2);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	char c1, c2;
+//	c1 = 'a';
+//	c2 = 'b';
+//	c1 = c1 - 32;
+//	c2 = c2 - 32;
+//	printf("%c %c\n", c1, c2);
+//	printf("%d %d\n",c1,c2);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 8;
+//	printf("%d\n", ++i);
+//	printf("%d\n", --i);
+//	printf("%d\n", i++);
+//	printf("%d\n", i--);
+//	printf("%d\n", -i++);
+//	printf("%d\n", -i--);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 3, b = 2, c = 4, d = 8, x;
+//	a += b * c;
+//	b -= c / b;
+//	printf("%d %d %d\n", a, b, c *= 2 * (a + b));
+//	d %= a;
+//	printf("x = %d\n", x = a + b + c + d);
+//	return 0;
+//}
