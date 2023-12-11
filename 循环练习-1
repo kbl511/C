@@ -1,0 +1,192 @@
+#define _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 1;
+//	while (i <= 10)
+//	{
+//		i++;
+//		if (5 == i)
+//			continue;
+//		printf("%d ", i);
+//
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int ch = getchar();
+//	printf("%d\n", ch);
+//
+//	return 0;
+//}
+//int main()
+//{
+//	char a;
+//	scanf("%c", &a);
+//	printf("%c\n", a);
+//	printf("%d\n", a);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int ch = getchar();
+// 
+//	printf("%c\n", ch);
+//	putchar(ch);
+//
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int ch = getchar();
+//	printf("%c\n", ch);
+//	putchar(ch);
+//	
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	char ch = '\0';
+//	while ((ch = getchar()) != EOF)
+//	{
+//		if (ch < '0' || ch>'9')
+//			continue;
+//		putchar(ch);
+//	}
+//
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 1;
+//	while (i <= 10)
+//	{
+//		printf("%d\n", i);
+//		i++;
+//	}
+//
+//	return 0;
+//}
+/*include<stdio.h>
+int main()
+{
+	int i;
+	for (i = 1; i <= 10; i++)
+		printf("%d ", i);
+	return 0;
+}*/
+//            三种循环语句输入1-10的应用
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 1;
+//	while (i <= 10)
+//	{
+//		printf("%d ", i);
+//		i++;
+//	}
+//
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 0;
+//	for (i = 1; i <= 10; i++)
+//		printf("%d ", i);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 1;
+//	do {
+//		printf("%d ", i);
+//		i++;
+//	} while (i <= 10);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 0, t = 1;
+//	scanf("%d", &i);
+//	while (i >= 1)
+//	{
+//		t = t * i;
+//		i--;
+//	}
+//	printf("%d\n", t);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 1, sum = 0, t = 1;
+//	while (i <= 10)
+//	{
+//		t = t * i;
+//		sum = sum + t;
+//		i++;
+//	}
+//	printf("%d\n", sum);
+//
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 0, sum = 0, t = 1;
+//	for (i = 1; i <= 10; i++)
+//	{
+//		t = t * i;
+//		sum = sum + t;
+//	}
+//	printf("%d\n", sum);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };//0-9
+//	int i = 0;
+//	for (i = 0; i < 10; i++)
+//		printf("%d ", arr[i]);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	char ch ;
+//	int d_num = 0, n_d_num = 0;
+//	while ((ch = getchar()) != '\n')
+//	{
+//		if (ch >= '0' && ch <= '9')
+//			d_num++;
+//		else
+//			n_d_num++;
+//	}
+//	printf("%d %d", d_num,n_d_num);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	char ch = '\0';
+//	int d_num = 0, n_d_num = 0;
+//	while ((ch = getchar()) != '\n')
+//	{
+//		if (ch >= '0' && ch <= '9')
+//			d_num++;
+//		else
+//			n_d_num++;
+//	}
+//	printf("%d %d", d_num, n_d_num);
+//	return 0;
+//}
