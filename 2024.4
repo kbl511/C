@@ -1,0 +1,102 @@
+#define _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 10;
+//	printf("a++=%d\n", a++);
+//	printf("a=%d\n", a);
+//	printf("++a=%d\n", ++a);
+//	printf("a=%d\n", a);
+//	return 0;
+//      一：**厘米换算成英尺，英寸（英寸为十二进制）         **//
+//#include<stdio.h>
+//int main()
+//{
+//	int cm;
+//	scanf("%d\n", cm);
+//	int foot = cm / 30.48;
+//	int inch = ((cm / 30.48) - foot) * 12;
+//	return 0;
+//}
+//         二：**逆序三位数**           //
+//#include<stdio.h>
+//int main()
+//{
+//	int num, a, b, c;
+//	scanf("%d", &num);
+//	a = num / 100;
+//	b = (num - 100 * a) / 10;
+//	c = num % 10;
+//	printf("%d%d%d", c, b, a);
+//	return 0;
+//}
+//     三：**计算时间差**  (if语句）       //
+//#include<stdio.h>
+//int main()
+//{
+//	int hour1, minute1;
+//	int hour2, minute2;
+//	scanf("%d %d", &hour1, &minute1);
+//	scanf("%d %d", &hour2, &minute2);
+//	int ih = hour2 - hour1;
+//	int im = minute2 - minute1;
+//	if (im < 0)
+//	{
+//		im = 60 + im;
+//		ih--;
+//	}
+//	printf("时间差是%d小时%d分钟\n", ih, im);
+//	return 0;
+//}
+// 
+//#include<stdio.h>
+//int main()
+//{
+//	printf("%d\n", 5 == 3);
+//	printf("%d\n", 5 > 3);
+//	printf("%d\n", 5 <= 3);
+//
+//	return 0;
+//}
+//     **if else**          //
+//#include<stdio.h>
+//int main()
+//{
+//	int price = 0;
+//	int bill = 0;
+//	printf("请输入金额：");
+//	scanf("%d", &price);
+//	printf("请输入票面：");
+//	scanf("%d", &bill);
+//	if (bill >= price)
+//	{
+//		printf("我们应该找您：%d\n", bill - price);
+//	}
+//	else
+//	{
+//		printf("您的钱不够\n");
+//	}
+//	return 0;
+//}
+//  **计算薪水**    //
+//#include<stdio.h>
+//int main()
+//{
+//	const double RATE = 8.25;
+//	const int STANDARD = 8;
+//	int hour = 0;
+//	double pay = 0;
+//	scanf("%d", &hour);
+//	if (hour > STANDARD)
+//	{
+//		pay = RATE * STANDARD + 1.5*RATE * (hour - STANDARD);
+//		printf("%.2f\n", pay);
+//	}
+//	else
+//	{
+//		pay = RATE * hour;
+//		printf("%.2f\n", pay);
+//	}
+//	return 0;
+//}
+ 
