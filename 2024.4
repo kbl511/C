@@ -183,3 +183,117 @@
 //	return 0;
 //}
 
+
+
+//               4.10
+//       **do-while**    //
+//#include<stdio.h>
+//int main()
+//{
+//	int x;
+//	int n = 0;
+//	scanf("%d", &x);
+//	do
+//	{
+//		x /= 10;
+//		n++;
+//	} while (x > 0);//while后面加分号
+//	printf("%d\n", n);
+//	return 0;
+//}
+//            **猜数游戏**          //
+           //**每次召唤rand（）就得到一个随机的整数
+//#include<stdio.h>
+//#include<stdlib.h>
+//#include<time.h>
+//int main()
+//{
+//    srand(time(0));
+//    int a = rand();
+//    
+//    printf("%d\n", a%100);//a%100每次都能够得到一个1-100之间的数
+//                            //缩小范围
+//    return 0;
+//} 
+// 
+//#include<stdio.h>
+//#include<stdlib.h>
+//#include<time.h>
+//int main()
+//{
+//    srand(time(0));
+//    int number = rand() % 100 + 1;
+//    int count = 0;
+//    int a = 0;
+//    do
+//    {
+//        printf("我已经想好了一个1-100之间的数\n");
+//        scanf("%d", &a);
+//        count++;
+//        if (a > number)
+//        {
+//            printf("你猜的数大了\n");
+//        }
+//        else if (a < number)
+//        {
+//            printf("你猜的数小了\n5");
+//        }
+//    } while (a != number);
+//        printf("太好了，你用了%d次就猜到了答案。\n", count);
+//    return 0;
+//}
+//           **算平均数**         //
+//#include<stdio.h>
+//int main()
+//{
+//    int sum = 0;
+//    int count = 0;
+//    int number;
+//    do
+//    {
+//        scanf("%d", &number);    //把scanf()放进do中表示持续输入数字；
+//        if (number != -1)//用while循环进行一次条件判断
+//        {                       //scanf(“%d”，&number）；
+//            sum += number;      //while(number!=-1)
+//            count++;            //{
+//        }                       //sum+=number;
+//    } while (number != -1);     //count++;
+//    printf("%f\n", 1.0 * sum / count);//scanf("%d",&number);
+//    return 0;                           //}
+//}
+//       **整数的分解**    //
+//#include<stdio.h>
+//int main()
+//{
+//    int x;
+//    scanf("%d", &x);
+//    int digit;
+//    int ret=0;
+//    while (x > 0)
+//    {
+//        digit = x % 10;
+//        ret = ret * 10 + digit;
+//        printf("x=%d,digit=%d,ret=%d\n", x, digit, ret);//显示调试结果
+//        x /= 10;
+//    }
+//    printf("%d\n", ret);//求输入整数的逆序
+//    return 0;
+//}
+//         **阶乘**        //
+//         **for循环**     //
+//#include<stdio.h>
+//int main()
+//{
+//    int i;
+//    int page = 1;
+//    int x;
+//    scanf("%d", &x);
+//    for (i = 1; i <= x; i++)
+//    {
+//        page *= i;
+//    }
+//    printf("%d\n", page);
+//
+//    return 0;
+//}
+
