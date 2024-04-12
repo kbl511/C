@@ -297,3 +297,159 @@
 //    return 0;
 //}
 
+
+
+
+
+
+//         4.12        //
+//#include<stdio.h>
+//#include<stdlib.h>
+//#include<time.h>
+//int main()
+//{
+//    srand(time(0));
+//    int a = rand()%100+1;
+//    printf("%d\n", a);
+//
+//    return 0;
+//}
+//         **判断素数**       //    **break**   //**continue**
+//#include<stdio.h>//                         continue是放弃当前语句；break是跳出循环
+//int main()
+//{
+//    int x;
+//    scanf("%d", &x);
+//    int i;
+//    int isprime = 1;  //x是素数      **多定义一个变量做衔接
+//    for (i = 2; i < x; i++)
+//    {
+//        if (x % i == 0)
+//        {
+//            isprime = 0;
+//            break; //跳出循环   
+//            
+//        }
+//    }
+//    if (isprime == 1)
+//    {
+//        printf("是素数\n");
+//    }
+//    else
+//    {
+//        printf("不是素数\n");
+//    }
+//    return 0;
+//}
+//            **输出100以内的素数**      //**双循环**//
+//#include<stdio.h>
+//int main()
+//{
+//    int i;
+//    int x;
+//    for (x=2;x<=100;x++)
+//    { 
+//        int isprime = 1;//**   要放在第一个for循环里，以保证每次第二个for循环结束
+//                        //都能回到初始值1；
+//        for (i = 2; i < x; i++)
+//        {
+//            if (x % i == 0)
+//            {
+//                isprime = 0;
+//                break;
+//            }
+//           
+//        }
+//        if (isprime == 1)
+//        {
+//            printf("%d ", x);
+//        }
+//    }
+//    return 0;
+//}
+//           **跳出连续循环**     ---接力break/用 goto 语句//
+//        **用一角，两角，五角来表示钱数**    //
+//接力break：
+//#include<stdio.h>
+//int main()
+//{
+//    int x;
+//    int one, two, five;
+//    scanf("%d", &x);
+//    int exit = 0;
+//    for (one = 1; one < x * 10; one++)
+//    {
+//        for (two = 1; two < x * 10 / 2; two++)
+//        {
+//            for (five = 1; five < x * 10 / 5; five++)
+//            {
+//                if (one + two * 2 + five * 5 == x * 10)
+//                {
+//                    printf("可以用%d个1角加%d个2角加%d个5角得到%d元\n",one,two,five,x);
+//                    exit = 1;
+//                    break;
+//                }
+//            }
+//            if (exit == 1)break;
+//        }
+//        if (exit == 1)break;
+//    }
+//
+//    return 0;
+//}
+//goto语句：
+//#include<stdio.h>
+//int main()
+//{
+//    int x;
+//    int one, two, five;
+//    scanf("%d", &x);
+//    for (one = 1; one < x * 10; one++)
+//    {
+//        for (two = 1; two < x * 10 / 2; two++)
+//        {
+//            for (five = 1; five < x * 10 / 5; five++)
+//            {
+//                if (one + two * 2 + five * 5 == x * 10)
+//                {
+//                    printf("可以用%d个1角加%d个2角加%d个5角得到%d元\n", one, two, five, x);
+//                    goto out;
+//                }
+//            }
+//        }
+//    }
+//    out://用冒号：
+//    return 0;
+//}
+//           **求前n项倒数之和**        //
+//#include<stdio.h>
+//int main()
+//{
+//    int n;
+//    int i;
+//    double sum = 0.0;
+//    scanf("%d", &n);
+//    for (i = 1; i <= n; i++)
+//    {
+//        sum += 1.0/ i; 
+//    }
+//    printf("f(%d)=%f \n", n, sum);
+//    return 0;
+//}
+//       **奇数项为加，偶数项为减**    //
+//#include<stdio.h>
+//int main()
+//{
+//    int n;
+//    int i;
+//    double sum = 0.0;
+//    scanf("%d", &n);
+//    int sign = 1;
+//    for (i = 1; i <= n; i++)
+//    {
+//        sum += sign*1.0 / i;
+//        sign = -sign;
+//    }
+//    printf("f(%d)=%f \n", n, sum);
+//    return 0;
+//}
